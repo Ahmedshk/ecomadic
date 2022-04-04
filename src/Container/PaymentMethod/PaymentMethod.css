@@ -1,0 +1,19 @@
+.go_back{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.go_back h5 svg{
+    margin-right: 5px;
+}
+
+.reservation_head{
+    background: linear-gradient(90.02deg, #345B44 0.93%, #0C6980 99.99%);
+    color: #fff;
+    padding: 15px 0;
+}
+
+.reservation_head h2{
+    font-weight: 700;
+}

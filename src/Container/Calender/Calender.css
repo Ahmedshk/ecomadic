@@ -1,0 +1,21 @@
+.calender_modal{
+    padding: 0 20px;
+}
+
+.calender_modal h5{
+    font-weight: 600 !important;
+}
+
+.filter_apply{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+.calender_address ul li{
+    list-style-type: none !important;
+}
+.calender_address p{
+    font-weight: 600 !important;
+}
