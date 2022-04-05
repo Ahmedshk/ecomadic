@@ -1,16 +1,22 @@
 import React from 'react';
 import {Row, Col, Container, NavLink} from "react-bootstrap";
+import {useNavigate} from "react-router-dom";
 import {BsArrowLeft} from "react-icons/bs";
-import "./Reservation.css";
+import "./CreateReservation.css";
 
-const Reservation = () => {
+const CreateReservation = () => {
+    const navigate = useNavigate();
+
+    const goToPayment = () => {
+        navigate('/payment')
+    }
     return (
         <React.Fragment>
             <div className={'reservation_head'}>
                 <Container fluid>
                 <Row>
                     <Col md={5} className={'go_back'}>
-                        <h5><BsArrowLeft /> Go back </h5>
+                        <h5 onClick={() => navigate('/reservation')}><BsArrowLeft /> Go back </h5>
                     </Col>
                     <Col md={7}>
                         <h2>New Reservation</h2>
@@ -125,7 +131,7 @@ const Reservation = () => {
                                         <Col md={12} className={'mt-3'}>
                                             <div className="d-flex justify-content-around">
                                                 <button className={'unfilled_color'}>Clear</button>
-                                                <button className={'filled_color'}>Payment method</button>
+                                                <button onClick={goToPayment} className={'filled_color'}>Payment method</button>
                                             </div>
                                         </Col>
                                     </Row>
@@ -180,4 +186,4 @@ const Reservation = () => {
         </React.Fragment>
     );
 };
-export default Reservation;
+export default CreateReservation;

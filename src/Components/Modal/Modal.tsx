@@ -6,13 +6,13 @@ export interface IModalInfo {
     show: boolean;
     handleClose: () => void;
     children: JSX.Element | JSX.Element[];
-    size: string;
+    size: "sm" | "lg" | "xl" | undefined ;
 
 }
 
-const ModalInfo: React.FC<IModalInfo> = ({ modalTitle, show, handleClose, children }) => {
+const ModalInfo: React.FC<IModalInfo> = ({ modalTitle,size, show, handleClose, children }) => {
     return (
-        <Modal show={show} onHide={handleClose}>
+        <Modal size={size} show={show} onHide={handleClose}>
             <Modal.Header closeButton>
                 <Modal.Title>{modalTitle}</Modal.Title>
             </Modal.Header>

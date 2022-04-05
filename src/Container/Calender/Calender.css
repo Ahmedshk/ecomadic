@@ -19,3 +19,158 @@
 .calender_address p{
     font-weight: 600 !important;
 }
+
+.search_people_container{
+    margin-top: 10px;
+    height: 27px;
+    vertical-align: middle !important;
+    text-align: center;
+    background-color: rgb(199, 199, 199);
+    border-radius: 5px;
+
+}
+.search_people_container > p{
+    font-size: 15px;
+    padding-top: 2px;
+}
+
+.people_icons_container{
+    position: relative;
+    bottom: 2px;
+    margin-right: 6px;
+}
+
+.calendar_sync{
+    display: flex;
+    justify-content: space-between;
+}
+
+.import_calendar{
+    color: skyblue;
+    font-weight: 600;
+}
+
+.calendar_sync{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.cursor_pointer{
+    cursor: pointer;
+}
+
+.modal-title {
+    font-weight: 600 !important;
+    font-size: 30px !important;
+    width: 100%;
+    text-align: center;
+}
+
+.reserved_details_container{
+    padding: 10px 20px;
+}
+
+.contact_no{
+    position: relative;
+    bottom: 15px;
+}
+
+.react-calendar {
+ border: none !important;
+}
+
+abbr[data-bs-original-title], abbr[title] {
+    text-decoration: none !important;
+}
+
+.react-calendar__month-view__days__day--weekend {
+     color: #000 !important;
+}
+
+.rbc-off-range-bg {
+    background: #e6e6e6;
+    box-shadow: rgb(0 0 0 / 19%) 0px 10px 20px, rgb(0 0 0 / 23%) 0px 6px 6px;
+}
+.rbc-day-bg {
+    background: #fff;
+    box-shadow: rgb(0 0 0 / 19%) 0px 10px 20px, rgb(0 0 0 / 23%) 0px 6px 6px;
+}
+
+span.rbc-toolbar-label {
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.calender_heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.calender_heading img{
+    width: 27px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.calender_heading p{
+    margin: 0;
+}
+
+.calendar_names_container{
+    text-align: center;
+}
+
+.filled_blue {
+    background-color: #5d5bc7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.filled_green{
+    background-color: #5baf2a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.pink_border{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid rgb(228, 126, 143);
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.filled_yellow{
+    background-color: #FBBC05CC;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.filled_purple{
+    background-color: rgb(179, 84, 179);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.day{
+    font-size: 25px;
+    color: grey;
+}
+.date{
+    font-size: 45px;
+}
