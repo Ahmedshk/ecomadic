@@ -3,9 +3,7 @@ import format from "date-fns/format";
 import getDay from "date-fns/getDay";
 import parse from "date-fns/parse";
 import startOfWeek from "date-fns/startOfWeek";
-// @ts-ignore
 import datePop from "../../images/date_popup.png";
-// @ts-ignore
 import filter from "../../images/filter.png";
 import React, { useState, useCallback } from "react";
 import { Calendar, dateFnsLocalizer, DateLocalizer } from "react-big-calendar";

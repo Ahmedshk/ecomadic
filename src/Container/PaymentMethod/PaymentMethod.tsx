@@ -1,10 +1,7 @@
 import React from 'react';
 import {Col, Container, Row, Form} from "react-bootstrap";
-// @ts-ignore
 import purchase from "../../images/purchase_1.png";
-// @ts-ignore
 import purchase1 from "../../images/purchase_2.png";
-// @ts-ignore
 import security from "../../images/security.png";
 import {BsArrowLeft} from "react-icons/bs";
 import {AiOutlineCalendar} from "react-icons/ai";
