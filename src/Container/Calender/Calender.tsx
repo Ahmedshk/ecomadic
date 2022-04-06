@@ -87,6 +87,10 @@ export const BigCalendar = () => {
         navigate('/create-reservation')
     }
 
+    const setCalender = () => {
+        setCalenderShow(true)
+    }
+
     const filterModal = (
         <CalenderModal size={undefined} modalTitle={"Filters"} show={filterShow} handleClose={() => setFilterShow(false)}>
             <div className={'calender_modal'}>
@@ -390,7 +394,7 @@ export const BigCalendar = () => {
                                 {changecontent ?
                                     <div>
                                         <p>Automatically block days when you link to another calendar</p>
-                                        <span onClick={() => setCalenderShow(true)} className='import_calendar'>IMPORT A CALENDAR</span>
+                                        <span onClick={setCalender} className='import_calendar'>IMPORT A CALENDAR</span>
 
                                         <div>
                                             <input type='checkbox' />
