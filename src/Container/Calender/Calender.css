@@ -48,6 +48,7 @@
 .import_calendar{
     color: skyblue;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .calendar_sync{
