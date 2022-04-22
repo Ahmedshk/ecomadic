@@ -1,0 +1,29 @@
+.css-hyb7bs{
+    margin-right: 0px;
+}
+
+a.chakra-link.css-f4h6uy {
+    color: white !important;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.footer_container svg{
+    color: white;
+    font-size: 20px;
+}
+
+.input_container{
+    position: relative;
+}
+
+.input_container span{
+    position: absolute;
+    font-size: 20px;
+    top: 9px;
+    left: 5px;
+}
+
+a.css-hyb7bs{
+    background: none !important;
+}

@@ -1,0 +1,44 @@
+.css-882cgy{
+    width: 15rem !important;
+    border-radius: 25px !important;
+}
+
+.slick-arrow .slick-prev{
+    color: grey !important;
+}
+
+.slick-prev:before {
+    font-size: 26px;
+    line-height: 1;
+    opacity: .75;
+    color: #000;
+}
+.slick-next:before{
+    font-size: 26px;
+    line-height: 1;
+    opacity: .75;
+    color: #000;
+}
+
+.slick-slider.slick-initialized {
+    margin-top: 30px;
+    padding: 17px;
+}
+
+button.slick-arrow.slick-next {
+    margin-right: 20px !important;
+}
+
+.review_rating{
+    display: flex;
+    align-items: center;
+}
+
+.review_rating p {
+    background-color: #05333F;
+    padding: 2px 4px;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-right: 6px;
+    color: #fff;
+}

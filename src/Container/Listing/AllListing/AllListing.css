@@ -1,0 +1,54 @@
+.select_input {
+    bottom: 5px !important;
+    border-radius: 30px !important;
+}
+
+.filter_select_container {
+    display: flex;
+    justify-content: center;
+}
+
+.chakra-select__icon-wrapper {
+    top: 16px !important;
+}
+
+.total_results {
+    color: grey;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.total {
+    color: grey;
+    font-size: 13px;
+}
+
+.amenities {
+    padding: 10px;
+    width: 100%;
+}
+
+.css-k8ygr1 span {
+    position: absolute;
+    font-size: 20px;
+    right: 5px;
+    top:5px
+}
+
+
+.review_div{
+    padding-top: 5px;
+}
+
+.review_div h5 span {
+    background-color: #05333F;
+    padding: 4px 5px;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-right: 6px;
+    color: #fff;
+}
+
+.css-1vz34qo {
+    font-weight: 200;
+}

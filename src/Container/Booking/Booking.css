@@ -1,0 +1,125 @@
+.booking_left, .booking_right{
+    padding: 30px;
+}
+
+.req_book_head{
+    display: flex;
+    align-items: center;
+}
+
+.req_book_head svg{
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.req_book_head h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.trip {
+    margin-top: 20px;
+}
+
+.trip h1, .cancellation_policy h1, .payment_method h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+hr:not([size]) {
+    height: 2px;
+    margin-top: 20px;
+}
+
+.trip_details{
+    width: 100%;
+}
+
+.trip_details h5 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.trip_details .date{
+    display: flex;
+    justify-content: space-between;
+}
+
+.guests_details, .date_details, .cancellation_policy{
+    margin-top: 15px;
+}
+
+.cancellation_policy p{
+    font-size: 13px;
+    margin: 15px 0;
+}
+
+.confirm_btn{
+    margin: 20px 0;
+}
+
+.room_details {
+    box-shadow: rgb(0 0 0 / 24%) 0 3px 8px;
+    width: 65%;
+    padding: 30px 40px;
+    border-radius: 20px;
+}
+
+.room_details .head {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.room_img img {
+    max-width: 100%;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.room_details_text{
+    margin-left: 20px;
+}
+
+.room_details_text h1 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.room_details_text p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.room_details_text span{
+    font-size: 12px;
+}
+
+.room_ratings {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.price_details_text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.price_details_text p{
+    font-weight: bold;
+}
+
+.card_details{
+margin-top: 10px;
+}
+
+.card_options > div{
+    display: flex;
+    margin: 10px 0;
+}

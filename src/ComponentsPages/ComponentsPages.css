@@ -1,0 +1,245 @@
+.form_container {
+    padding: 10px 20px;
+}
+
+.pricing_container {
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.filters_container {
+    padding: 10px 30px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.accomodation div {
+    padding: 10px;
+}
+
+.welcome_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.welcome_container h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+.accomodation div input {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 3px;
+}
+
+.accomodation div span {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.aminities_container {
+    padding: 10px 10px;
+    width: 70%;
+    display: flex;
+    flex-flow: wrap;
+    gap: 20px;
+}
+
+.aminities_container div span {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.aminities_container div input {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 3px;
+}
+
+.reaching_heading{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: grey;
+    font-weight: 600;
+}
+
+
+.reaching_container{
+    padding: 15px 30px;
+}
+
+.reaching_container h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.reaching_container p {
+    padding: 10px 0px;
+    font-weight: 500;
+}
+
+.reaching_container div  {
+    display: flex;
+    justify-content: center;
+}
+
+.form_container h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.price_container {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 150px;
+
+}
+
+.price_container span {
+    font-size: 15px;
+    color: grey;
+    font-weight: 500;
+
+
+}
+
+.leaf {
+
+    padding: 10px 10px;
+    color: white;
+    background: green;
+    border-radius: 50px;
+}
+
+.price_container p {
+    color: grey;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.environment div span {
+
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.min_max_contaner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_environmental {
+    display: flex;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.enviromental_leaft{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.inner_environment{
+    display: flex;
+    width: 50%;
+    gap: 5px;
+}
+
+.Inner_social{
+    display: flex;
+    width: 50%;
+    gap: 5px;
+}
+
+.social_environmental .environmental {
+    width: 50%;
+}
+
+.social_environmental .social {
+    width: 50%;
+}
+
+.environmental div span {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.environmental div input {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 3px;
+}
+
+.social div span {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.group {
+    padding: 10px 10px;
+    color: white;
+    background: rgb(243, 161, 9);
+    border-radius: 50px;
+}
+
+.social div input {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 3px;
+}
+
+.economic{
+    padding: 10px 20px;
+}
+
+
+.economic span {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.economic input {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 3px;
+}
+
+.ecoIcon{
+    padding: 10px 10px;
+    color: white;
+    background: rgb(39, 41, 153);
+    border-radius: 50px;
+}
+
+.eco{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}

@@ -1,0 +1,492 @@
+.main_header{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    mix-blend-mode: multiply;
+    background-image: url('../../images/business_page.jpg');
+    background-blend-mode: multiply;
+    background-color: #00000052;
+}
+
+.header_text{
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_text h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.header_text p{
+    font-size: 20px;
+}
+
+.header-2 {
+    display: flex;
+    padding: 10px 30px;
+    background-color: #fff;
+    position: relative;
+}
+
+.header-2.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-2 .navbar p {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #000000ba;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header-2 .navbar p:hover {
+    color: #fff;
+    background-color: #216261;
+}
+
+.policies_section{
+    background-color: #bcc482;
+}
+.property_policies, .got_question{
+    padding: 40px;
+}
+.property_policies h3, .got_question h3{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.property_policies .policy_details{
+    margin-top: 5px;
+}
+
+.got_question p{
+    margin: 20px 0;
+}
+
+.reviews_section{
+    padding: 20px 40px;
+}
+
+.reviews_heading{
+    display: flex;
+    align-items: center;
+}
+.reviews_heading h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.reviews_heading h5{
+    margin: 5px 8px 5px 20px;
+    background-color: #216261;
+    color: #fff;
+    border-radius: 6px;
+    padding: 2px 4px;
+}
+.reviews_heading p{
+    font-size: 14px;
+}
+
+.show_review{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.show_review h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.show_review .review_name{
+    display: flex;
+    align-items: center;
+}
+
+.review_btn{
+    text-align: center;
+}
+.review_btn .filled_color{
+    margin-top: 20px;
+}
+
+.room_price{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 6px 15px;
+}
+
+.room1 {
+    display: flex;
+    justify-content: center;
+}
+
+.room_section h1{
+    font-size: 25px;
+    padding-left: 30px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+h4.css-1jw1hn6 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.rooms_details_text{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.guides h1, .activities h1{
+    font-size: 25px;
+    padding-left: 30px;
+    margin: 25px 0;
+    font-weight: 600;
+}
+
+.guide_section{
+    padding: 15px 30px;
+}
+.guide_section h5{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.activity_section{
+    margin-right: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.activity_section img{
+    max-width: 100%;
+    width: 320px;
+    height: 172px;
+    border-radius: 20px;
+}
+
+.activities_div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+    .activities_div {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+}
+
+.activity_section p{
+    text-align: center;
+    font-size: 22px;
+    position: absolute;
+    bottom: 70px;
+    left: 112px;
+    color: #fff;
+}
+.activity_section .forest{
+    text-align: center;
+    font-size: 22px;
+    position: absolute;
+    bottom: 70px;
+    left: 98px !important;
+    color: #fff;
+}
+
+.business_profile, .Sustainable{
+    padding: 30px;
+}
+
+.business_profile h1 , .business_profile h4, .Sustainable h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.business_profile p{
+    font-size: 15px;
+}
+.amenities h5{
+    margin-bottom: 6px;
+}
+.sustain_text p{
+    margin-bottom: 4px;
+}
+
+.check_in {
+    margin: 0 15px 0 0;
+    padding: 15px 25px 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 16%);
+    border: solid 0 #707070;
+    background-color: #fff;
+    text-align: center;
+}
+
+.react-datepicker__input-container input[type="text"]{
+    text-align: center;
+}
+
+.check_in_out{
+    display: flex;
+    margin: 15px 0;
+    justify-content: center;
+}
+.adults{
+    margin: 0 15px 0 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 16%);
+    border: solid 0 #707070;
+    background-color: #fff;
+    padding: 20px 30px;
+}
+.adults .dropdown_option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropdown_option svg{
+    font-size: 25px;
+}
+
+.req_btn{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.booking_section{
+    border-radius: 30px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.29);
+    padding: 22px;
+    margin: 20px 0;
+}
+.booking_section p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.options{
+    display: flex;
+    margin-top: 20px;
+}
+.inc_dec{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 23px;
+}
+
+.inc_dec svg{
+    margin: 0 5px;
+}
+
+.dropdown_option svg{
+    cursor: pointer;
+}
+
+input.quantity__input {
+    width: 24px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.modal_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal_header h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.modal_header svg{
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+.modal_body p{
+    font-size: 13px;
+}
+
+.confirm_div{
+    margin-top: 20px;
+
+}
+
+.confirm_msg{
+    display: flex;
+    align-items: center;
+}
+
+
+.confirm_msg svg{
+    margin-right: 10px;
+    font-size: 25px;
+    color: #BCC482;
+}
+
+.confirm_msg h5{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.line{
+    margin: 20px 0;
+    color: #0C6980;
+    height: 3px !important;
+}
+
+.confirm_address h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.reserve_details{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #707070;
+    margin-bottom: 8px;
+}
+
+.reserve_details p{
+    padding-bottom: 4px;
+}
+
+.mail_span{
+    color: #1d5096;
+    text-decoration: underline;
+}
+
+.phone_details{
+    margin-top: 20px;
+}
+
+.location_img img {
+    max-width: 100%;
+    width: 100%;
+    height: 115px;
+    object-fit: cover;
+}
+
+.print_div p{
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+/* -------------------------- */
+
+.modal_header2{
+    display: flex;
+    justify-content: end;
+}
+.modal_header2 svg{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modal2_text{
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+.modal2_text h1{
+    font-size: 30px;
+}
+
+.modal2_text h3{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+
+
+.check_in_out_text{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.check_in_out_text h5{
+    font-weight: 700;
+}
+
+.check_in_out_text p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.msg_div .textArea{
+    border: 1px solid #d0cfcd;
+    margin-top: 8px;
+}
+
+.msg_div .textArea:focus{
+    border: 1px solid #d0cfcd;
+}
+
+.msg_div .textArea::placeholder{
+    padding-left: 5px;
+}
+
+.btn_div{
+    text-align: center;
+    margin: 30px 0;
+}
+
+
+
+.product_container {
+    padding: 10px 10px;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.image-gallery-right-nav .image-gallery-svg{
+    height: 40px !important;
+    width: 60px !important;
+}
+
+
+.image-gallery-left-nav .image-gallery-svg {
+    height: 40px !important;
+    width: 60px !important;
+}
+
+.image-gallery-thumbnail{
+    width: 120px !important;
+}
+
+.image-gallery-thumbnails-wrapper.left .image-gallery-thumbnails .image-gallery-thumbnail{
+    width: auto !important;
+}
+
+.image-gallery-thumbnail img {
+    height: 75px !important;
+}
+
+.image-gallery-image{
+    height: 300px !important;
+    width: 100% !important;
+}

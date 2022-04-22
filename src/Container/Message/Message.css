@@ -1,0 +1,103 @@
+.css-ujma4c {
+    grid-gap: 0px !important;
+    border-bottom: 1px solid rgb(192, 189, 189);
+}
+
+.incoming_msg {
+    padding: 0 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.incoming_msg img {
+    margin: 5px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.msg_text{
+    cursor: pointer;
+}
+.msg_text p{
+    color: #404040;
+    text-align: end;
+    font-size: 14px;
+}
+.msg_text .date{
+    font-size: 11px;
+}
+.msg_text{
+    margin-left: 10px;
+}
+
+.css-1c012gg {
+    background: #EDEDED !important;
+    margin-top: 1px;
+    padding: 10px 0;
+    height: 100%;
+}
+
+.css-640u4w {
+    height: auto !important;
+}
+
+.css-qh2ffj {
+    padding: 0px  !important;
+}
+
+.response_time{
+    padding: 0 19px 4px 19px;
+    font-size: 13px;
+    color: #404040;
+}
+
+.protect_section {
+    box-shadow: rgb(50 50 93 / 24%) 0 6px 12px -2px, rgb(0 0 0 / 22%) 0 3px 7px -3px;
+    margin-top: 10px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 11px;
+    padding: 10px 0;
+    border-radius: 50px;
+}
+
+.Aminities{
+    margin-bottom: 10px !important;
+}
+
+.Aminities ul {
+    padding: 10px;
+}
+
+.Aminities h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.Faqs p{
+    padding: 2px !important;
+}
+
+.Faqs > span{
+    margin-top: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Faqs h2{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.faq_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.check_in_dates{
+    margin-top: 15px;
+    margin-bottom: 8px;
+}

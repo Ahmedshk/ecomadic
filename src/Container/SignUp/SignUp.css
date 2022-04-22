@@ -1,0 +1,66 @@
+.register_form {
+    background: #fff;
+    width: 100%;
+    padding: 35px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    margin-top: 5%;
+    margin-bottom: 70px;
+}
+
+p {
+    font-weight: 500;
+}
+
+.text {
+    font-size: 35px;
+    color: #000;
+    font-weight: 600;
+}
+
+.register_data {
+    height: auto;
+    width: 100%;
+    margin-top: 30px;
+}
+
+input {
+    height: 100%;
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    font-size: 17px;
+}
+
+label {
+    font-weight: 500;
+}
+
+.main_register {
+    background: #0C6980;
+    transition: all 0.4s;
+    margin: 30px 0;
+    height: 45px;
+    width: 100%;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.sign_google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #80808040;
+    padding: 5px 0px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.sign_google img{
+    width: 55px;
+    margin-left: 10px;
+}
